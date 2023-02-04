@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  background: #f5f5f5;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  margin-top: 3em;
+  max-width: 450px;
+  min-width: 400px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tenziesCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tenzy {
+  width: 2em;
+  height: 2em;
+  border: 1px solid black;
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #2b283a;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.btn {
+  margin-top: 2em;
+  background: #5035ff;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  padding: 1em 2.5em;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.mainText {
+  font-size: 1.8rem;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 1000px) {
+  * {
+    font-size: 1.2rem;
+  }
+  .container {
+    max-width: 500px;
+  }
+  .btn {
+    padding: 0.6em 1.3em;
+  }
+}
